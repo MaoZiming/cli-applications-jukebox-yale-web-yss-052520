@@ -23,7 +23,7 @@ def help
 end
 
 
-def play
+def play(songs)
   puts "Please enter a song name or number:"
   response = gets.strip
   count = 0
@@ -37,7 +37,7 @@ def play
   puts "Invalid input, please try again"
 end
 
-def list
+def list(songs)
   count = 0
   while count < songs.size do
     puts "#{count+1}. " + songs[count]
