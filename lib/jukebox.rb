@@ -49,6 +49,7 @@ def run(songs)
     elsif input == "play"
       play(songs)
     end
+    input = gets.strip
   end
     exit_jukebox
 
