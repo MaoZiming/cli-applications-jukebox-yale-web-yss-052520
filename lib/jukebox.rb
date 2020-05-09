@@ -33,6 +33,7 @@ def play(songs)
       return true
       break
     end
+    count += 1
   end
   puts "Invalid input, please try again"
 end
