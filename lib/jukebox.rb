@@ -29,7 +29,7 @@ def play(songs)
   count = 0
   while count < songs.size do
     if songs[count] == response || count == response.to_i
-      puts "Playing <song name>"
+      puts "Playing #{songs[count]}"
       return true
       break
     end
